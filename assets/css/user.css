@@ -1,0 +1,34 @@
+/* prettier-ignore */
+/*-----------------------------------------------
+|   Navigation 
+------------------------------------------------*/
+/*-----------------------------------------------
+|   Navbar Brand 
+------------------------------------------------*/
+/*# sourceMappingURL=user.css.map */
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.cgr-bg {
+	background-image: url("/assets/img/cgrbg1.jpg");
+	background-color: #cccccc;
+}
+.cgr-cf {
+	background-image: url("/assets/img/cf-cgr.png");
+	background-color: #cccccc;
+}
+/*------------Stolen from current site-----------*/
+.driver-info {
+  float: left;
+}
+.driver-info table {
+}
+.driver-info table tr {
+}
+.driver-info table tr td:first-child {
+  font-weight: bold;
+}
+.cgr-shadow {
+  text-shadow: 4px 4px #000000;
+}
