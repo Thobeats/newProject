@@ -7,8 +7,7 @@
 ------------------------------------------------*/
 /*# sourceMappingURL=user.css.map */
 .strokeme {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: black;
 }
 .cgr-bg {
 	background-image: url("/assets/img/cgrbg1.jpg");
@@ -37,7 +36,7 @@
   background-size: 200% 200%;
   color : #fff;
   background-image: linear-gradient(to left, #fff 50%, transparent 50%);
-  transition: background-position 300ms, color 300ms ease;
+  transition: background-position 500ms, color 300ms ease;
 }
 
 .news_link:hover{    
@@ -46,5 +45,16 @@
   text-shadow: none;
   background-image: linear-gradient(to left, #fff 50%, transparent 50%);
   background-position: 100% 0;
-  transition: background-position 300ms, color 300ms ease;
+  transition: background-position 500ms, color 300ms ease;
+}
+
+.read-more{
+  color: #cccccc;
+  font-size: 14px;
+  transition: color 300ms;
+  cursor: pointer;
+}
+
+.read-more:hover{
+  color : #d0021b;
 }
