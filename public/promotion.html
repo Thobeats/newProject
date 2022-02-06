@@ -47,7 +47,7 @@
 	<script src="/node_modules/plyr/dist/plyr.polyfilled.min.js"></script>
 
     <nav class="fancynavbar fancynavbar-expand-lg" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
-      <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="/public/index.html"><img class="fancynavbar-brand-img" src="/assets/img/logo/cgr.png" alt="" width="50" height="25" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" /></a>
+      <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="/public/promotion.html"><img class="fancynavbar-brand-img" src="/assets/img/logo/cgr.png" alt="" width="50" height="25" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" /></a>
         <div class="fancynavbar-toggler">
           <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
             <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
@@ -291,75 +291,151 @@
         </style>
 
 
-        <div class="container">
-          <div class="row">
-            <div class="col-12 border-start border-4 border-danger d-flex" style="width:fit-content">
-			        <h2 class='p-2'>2022 Schedule</h2> <div style="width: 80px;"> <img src="../assets/img/flag.jpeg" width='100%'> </div> 
-            </div>
+        <div class="container bg-light p-3">
 
-            <div class='col-12'>
-              <ul class="nav nav-tabs font-sans-serif justify-content-end border-bottom border-2 border-danger" id="myTab" role="tablist">
-                <li class="nav-item"><a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#indycar" role="tab" aria-controls="tab-home" aria-selected="true">IndyCar</a></li>
-                <li class="nav-item"><a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#imsa" role="tab" aria-controls="tab-profile" aria-selected="false">IMSA</a></li>
-                <li class="nav-item"><a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#extreme-e" role="tab" aria-controls="tab-contact" aria-selected="false">Extreme-E</a></li>
-              </ul>
-              <div class="tab-content border-x border-bottom p-3" id="myTabContent">
-                <div class="tab-pane fade show active" id="indycar" role="tabpanel" aria-labelledby="home-tab">
-                  <table class="table table-striped">
-                    <tbody>
-                    <tr>
-                      <td>Streets of St. Petersburg</td>
-                      <td>Feb 27</td>
-                    </tr>	
-                    <tr>
-                      <td>Texas Motor Speedway</td>
-                      <td>Mar 20</td>
-                    </tr>
-                    <tr>
-                      <td>Streets of Long Beach</td>
-                      <td>April 10</td>	
-                    </tr>
-                    <tr>
-                      <td>Barber Motorsports Park</td>
-                      <td>May 1</td>
-                    </tr>
-                    </tbody>
-                  </table>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 border-start border-4 border-danger d-flex" style="width:fit-content">
+                  <h4 class='p-2'>2022 Standings</h4> <div style="width: 50px;"> <img src="../assets/img/flag.jpeg" width='100%'> </div> 
                 </div>
-                <div class="tab-pane fade" id="imsa" role="tabpanel" aria-labelledby="profile-tab">
-                  <table class="table table-striped">
-                    <tbody>
-                    <tr>
-                      <td>Roar Before The Rolex 24</td>
-                      <td>Fri, Jan 21 – Sun, Jan 23</td>
-                    </tr>	
-                    <tr>
-                      <td>24 Hours of Daytona</td>
-                      <td>Sat, Jan 29 - Sun, Jan 30</td>
-                    </tr>
-                    </tbody>
-                    </table>
+    
+                <div class='col-12'>
+                  <ul class="nav nav-tabs font-sans-serif justify-content-end border-bottom border-2 border-danger" id="myTab" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#indycar" role="tab" aria-controls="tab-home" aria-selected="true">IndyCar</a></li>
+                    <li class="nav-item"><a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#imsa" role="tab" aria-controls="tab-profile" aria-selected="false">IMSA</a></li>
+                    <li class="nav-item"><a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#extreme-e" role="tab" aria-controls="tab-contact" aria-selected="false">Extreme-E</a></li>
+                  </ul>
+                  <div class="tab-content border-x border-bottom p-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="indycar" role="tabpanel" aria-labelledby="home-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Streets of St. Petersburg</td>
+                          <td>Feb 27</td>
+                        </tr>	
+                        <tr>
+                          <td>Texas Motor Speedway</td>
+                          <td>Mar 20</td>
+                        </tr>
+                        <tr>
+                          <td>Streets of Long Beach</td>
+                          <td>April 10</td>	
+                        </tr>
+                        <tr>
+                          <td>Barber Motorsports Park</td>
+                          <td>May 1</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="imsa" role="tabpanel" aria-labelledby="profile-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Roar Before The Rolex 24</td>
+                          <td>Fri, Jan 21 – Sun, Jan 23</td>
+                        </tr>	
+                        <tr>
+                          <td>24 Hours of Daytona</td>
+                          <td>Sat, Jan 29 - Sun, Jan 30</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="extreme-e" role="tabpanel" aria-labelledby="contact-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Saudi Arabia</td>
+                          <td>Feb 19 - Feb 20</td>
+                        </tr>
+                        <tr>
+                          <td>Senegal</td>
+                          <td>May 7 - May 8</td>
+                        </tr>	
+                        </tbody>
+                        </table>
+                    </div>
+                  </div>
+                 
+                  
                 </div>
-                <div class="tab-pane fade" id="extreme-e" role="tabpanel" aria-labelledby="contact-tab">
-                  <table class="table table-striped">
-                    <tbody>
-                    <tr>
-                      <td>Saudi Arabia</td>
-                      <td>Feb 19 - Feb 20</td>
-                    </tr>
-                    <tr>
-                      <td>Senegal</td>
-                      <td>May 7 - May 8</td>
-                    </tr>	
-                    </tbody>
-                    </table>
-                </div>
-              </div>
-             
-              
+               
             </div>
-           
-        </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="row">
+                <div class="col-12 border-start border-4 border-danger d-flex" style="width:fit-content">
+                  <h4 class='p-2'>2022 Schedule</h4> <div style="width: 50px;"> <img src="../assets/img/flag.jpeg" width='100%'> </div> 
+                </div>
+    
+                <div class='col-12'>
+                  <ul class="nav nav-tabs font-sans-serif justify-content-end border-bottom border-2 border-danger" id="myTab" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#indycar" role="tab" aria-controls="tab-home" aria-selected="true">IndyCar</a></li>
+                    <li class="nav-item"><a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#imsa" role="tab" aria-controls="tab-profile" aria-selected="false">IMSA</a></li>
+                    <li class="nav-item"><a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#extreme-e" role="tab" aria-controls="tab-contact" aria-selected="false">Extreme-E</a></li>
+                  </ul>
+                  <div class="tab-content border-x border-bottom p-3" id="myTabContent">
+                    <div class="tab-pane fade show active" id="indycar" role="tabpanel" aria-labelledby="home-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Streets of St. Petersburg</td>
+                          <td>Feb 27</td>
+                        </tr>	
+                        <tr>
+                          <td>Texas Motor Speedway</td>
+                          <td>Mar 20</td>
+                        </tr>
+                        <tr>
+                          <td>Streets of Long Beach</td>
+                          <td>April 10</td>	
+                        </tr>
+                        <tr>
+                          <td>Barber Motorsports Park</td>
+                          <td>May 1</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="imsa" role="tabpanel" aria-labelledby="profile-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Roar Before The Rolex 24</td>
+                          <td>Fri, Jan 21 – Sun, Jan 23</td>
+                        </tr>	
+                        <tr>
+                          <td>24 Hours of Daytona</td>
+                          <td>Sat, Jan 29 - Sun, Jan 30</td>
+                        </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="extreme-e" role="tabpanel" aria-labelledby="contact-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                        <tr>
+                          <td>Saudi Arabia</td>
+                          <td>Feb 19 - Feb 20</td>
+                        </tr>
+                        <tr>
+                          <td>Senegal</td>
+                          <td>May 7 - May 8</td>
+                        </tr>	
+                        </tbody>
+                        </table>
+                    </div>
+                  </div>
+                 
+                  
+                </div>
+               
+            </div>
+            </div>
+          </div>
+          
         <!-- end of .container-->
 
       </section>
