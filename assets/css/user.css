@@ -58,3 +58,18 @@
 .read-more:hover{
   color : #d0021b;
 }
+
+.page-item.active .page-link{
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+
+.page-item .page-link:hover{
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+
+.archive_link:hover{
+  border-bottom: 1px solid #000;
+  transition: .5s all ease;
+}
