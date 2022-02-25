@@ -13,7 +13,6 @@
     <title>Chip Ganassi Racing Teams</title>
 
 
-
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
@@ -39,17 +38,15 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<link href="/node_modules/plyr/dist/plyr.css" rel="stylesheet">
 
-  <!-- masonry -->
-  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-
-
-
+ 
   </head>
 
 
   <body class="overflow-hidden-x">
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script src="/node_modules/plyr/dist/plyr.polyfilled.min.js"></script>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="sNYizG5O"></script>
 
     <nav class="fancynavbar fancynavbar-expand-lg" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
       <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="/public/promotion.html"><img class="fancynavbar-brand-img" src="/assets/img/logo/cgr.png" alt="" width="50" height="25" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" /></a>
@@ -60,7 +57,7 @@
             <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
           </svg>
         </div>
-        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="#!"><span class="fab fa-twitter"></span></a><a class="fancynavbar-addon-item" href="#languageModal" data-bs-toggle="modal"><span class="font-sans-serif ls fw-black fs--1 d-block">EN</span></a>
+        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="https://twitter.com/CGRTeams"><span class="fab fa-twitter"></span></a><a class="fancynavbar-addon-item" href="#languageModal" data-bs-toggle="modal"><span class="font-sans-serif ls fw-black fs--1 d-block">EN</span></a>
         </div>
       </div>
       <div class="fancynavbar-collapse">
@@ -84,6 +81,7 @@
               </div>
             </div>
           </li>
+<!-- 
 			<li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">Our Teams</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -98,7 +96,7 @@
 				</div>
 			  </div>
 			</div>
-		  </li>
+		  </li> -->
 			<li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">Schedule &amp; Results</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -110,6 +108,8 @@
 			  </div>
 			</div>
 		  </li>
+      <li class="fancynav-item"><a class="fancynav-link" href="/public/partners.html"><span class="fancynav-link-content">Partners</span></a></li>
+
 		  <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">About CGR</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -184,55 +184,43 @@
       <section>
 
         <div class="container">
-          <div class="row child-margin" data-masonry='{"percentPosition": true }' >
-            <div class="col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title that wraps to a new line</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+          <div class="row child-margin" data-masonry='{"percentPosition": true }' data-isotope='{"layoutMode":"packery"}'>
+            
+            <div class="col-md-3 isotope-item">
+              <div class="card video">
+                <a href="../pages/single-news.html" target="_blank"> 
+                  <div class="card-overlay"></div>
+                  <div class="text-overlay">
+                    <h5 class="text-white">Alex Palou avoids the chaos on streets of Long Beach to clinch 2021 IndyCar title</h5>
+                  </div>
+                  <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap"></a>
+                
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title that wraps to a new line</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+            <div class="col-md-3 isotope-item">
+              <div class="card video">
+                <a href="../pages/single-news.html" target="_blank"> 
+                  <div class="card-overlay"></div>
+                  <div class="text-overlay">
+                    <h5 class="text-white">Johnson embraces 'awesome' first IndyCar oval experience at Texas</h5>
+                  </div>
+                <img class="card-img-top" src="/assets/img/1080/Nashville-1080.jpg" alt="Card image cap"></a>
+               
               </div>
             </div>
               
-              <div class="col-md-6">
+              <div class="col-md-6 isotope-item">
                 <div class="card video">
                   <a href="../pages/single-news.html" target="_blank"> <div class="card-overlay"></div>
                   <div class="text-overlay"><h3 class="text-white">Palou becomes first Spaniard to win IndyCar championship</h5></div>
-                  <div class="video-overlay"><h6 class="text-white">01:00 &nbsp;<i class="fas fa-video"></i></h6></div>
-                  <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap"></a>
+                  <!-- <div class="video-overlay"><h6 class="text-white">01:00 &nbsp;<i class="fas fa-video"></i></h6></div> -->
+                  <img class="card-img-top" src="/assets/img/1080/AP-CGR-1080.jpg" alt="Card image cap"></a>
 
                 </div>
               </div>
              
-              <div class="col-md-3">
-                <div class="card">
-                  <img class="card-img" src="/assets/img/1080/ME-Detroit-1080.jpg" alt="Card image">
-                </div>
-              </div>
-             <div class="col-md-3">
-              <div class="card p-3 text-right">
-                <blockquote class="blockquote mb-0">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                  <footer class="blockquote-footer">
-                    <small class="text-muted">
-                      Someone famous in <cite title="Source Title">Source Title</cite>
-                    </small>
-                  </footer>
-                </blockquote>
-              </div>
-             </div>
              
-             <div class="col-md-6">
+             <div class="col-md-6 isotope-item">
               <div class="card video">
                 <div class="card-overlay"></div>
                 <div class="video-overlay"><h6 class="text-white">01:50 &nbsp;<i class="fas fa-video"></i></h6></div>
@@ -241,36 +229,57 @@
 
               </div>
             </div>
-              <div class="col-md-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="col-md-3 isotope-item">
+              <div class="card video">
+                <a href="../pages/single-news.html" target="_blank"> 
+                  <div class="card-overlay"></div>
+                  <div class="text-overlay">
+                    <h5 class="text-white">The Re-Education Of Jimmie Johnson</h5>
                   </div>
+                  <img class="card-img-top" src="/assets/img/1080/AP-Portland-1080.jpg" alt="Card image cap">
+                </a>
+             
+              </div>
+            </div>
+
+              <div class="col-md-3 isotope-item">
+                <div class="card">
+                  <a href="../pages/single-news.html" target="_blank"> 
+                    <div class="card-overlay"></div>
+                    <div class="text-overlay">
+                      <h5 class="text-white">IndyCar speeds into Long Beach celebrating season of gains</h5>
+                    </div>
+                    <img class="card-img-top" src="/assets/img/1080/JJ-Honda-1080.jpg" alt="Card image cap">                  
+                  </a>
+   
+                </div>
+              </div>
+              <div class="col-md-3 isotope-item">
+                <div class="card">
+                  <a href="../pages/single-news.html" target="_blank"> 
+                    <div class="card-overlay"></div>
+                    <div class="text-overlay">
+                      <h5 class="text-white">Palou Seizes Series Lead with Thrilling Victory at Portland</h5>
+                    </div>
+                    <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap">    
+                  </a>
+                  
                 </div>
               </div>
 
-              <div class="col-md-3">
-                <div class="card">
-                  <img class="card-img-top" src="/assets/img/1080/AP-Cup-1080.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title that wraps to a new line</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="card">
-                  <img class="card-img-top" src="/assets/img/1080/ME-Detroit-1080.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title that wraps to a new line</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-              </div>
-
-              
+               <nav aria-label="Blog Pagination">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item d-none d-lg-block"><a class="page-link" href="#!">First</a></li>
+                  <li class="page-item"><a class="page-link" href="#!" aria-label="Previous"><span class="fa fa-caret-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a></li>
+                  <li class="page-item"><a class="page-link" href="#!">10</a></li>
+                  <li class="page-item active"><a class="page-link" href="#!">11</a></li>
+                  <li class="page-item"><a class="page-link" href="#!">...</a></li>
+                  <li class="page-item"><a class="page-link" href="#!">25</a></li>
+                  <li class="page-item"><a class="page-link" href="#!">26</a></li>
+                  <li class="page-item"><a class="page-link" href="#!" aria-label="Next"><span class="fa fa-caret-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></li>
+                  <li class="page-item d-none d-lg-block"><a class="page-link" href="#!">Last</a></li>
+                </ul>
+              </nav>
           </div>
         </div>
         <!-- end of .container-->
@@ -345,6 +354,8 @@
     <script src="/vendors/gsap/gsap.js"></script>
     <script src="/vendors/gsap/customEase.js"></script>
     <script src="/vendors/gsap/drawSVGPlugin.js"></script>
+    <script src="/vendors/isotope-layout/isotope.pkgd.min.js"> </script>
+    <script src="/vendors/isotope-packery/packery-mode.pkgd.min.js"> </script>
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-122907869-1"></script>
     <script>

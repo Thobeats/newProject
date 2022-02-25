@@ -38,13 +38,15 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<link href="/node_modules/plyr/dist/plyr.css" rel="stylesheet">
 
-
+ 
   </head>
 
 
   <body class="overflow-hidden-x">
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 	<script src="/node_modules/plyr/dist/plyr.polyfilled.min.js"></script>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="sNYizG5O"></script>
 
     <nav class="fancynavbar fancynavbar-expand-lg" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-37},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-trigger="scroll" data-exclusive="true">
       <div class="fancynavbar-togglerbar" data-onscroll-fade-in="data-onscroll-fade-in"><a class="fancynavbar-brand" href="/public/promotion.html"><img class="fancynavbar-brand-img" src="/assets/img/logo/cgr.png" alt="" width="50" height="25" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll" /></a>
@@ -55,7 +57,7 @@
             <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
           </svg>
         </div>
-        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="#!"><span class="fab fa-twitter"></span></a><a class="fancynavbar-addon-item" href="#languageModal" data-bs-toggle="modal"><span class="font-sans-serif ls fw-black fs--1 d-block">EN</span></a>
+        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"><a class="fancynavbar-addon-item" href="https://twitter.com/CGRTeams"><span class="fab fa-twitter"></span></a><a class="fancynavbar-addon-item" href="#languageModal" data-bs-toggle="modal"><span class="font-sans-serif ls fw-black fs--1 d-block">EN</span></a>
         </div>
       </div>
       <div class="fancynavbar-collapse">
@@ -79,6 +81,7 @@
               </div>
             </div>
           </li>
+<!-- 
 			<li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">Our Teams</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -93,7 +96,7 @@
 				</div>
 			  </div>
 			</div>
-		  </li>
+		  </li> -->
 			<li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">Schedule &amp; Results</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -105,6 +108,8 @@
 			  </div>
 			</div>
 		  </li>
+      <li class="fancynav-item"><a class="fancynav-link" href="/public/partners.html"><span class="fancynav-link-content">Partners</span></a></li>
+
 		  <li class="fancynav-item fancy-dropdown"><a class="fancynav-link fancy-dropdown-toggle" href="JavaScript:void(0)"><span class="fancynav-link-content">About CGR</span></a>
 			<div class="fancy-dropdown-menu">
 			  <div class="row pb-4 pt-3">
@@ -187,10 +192,6 @@
 
         <ul class="nav nav-tabs font-sans-serif justify-content-end border-bottom border-2 border-danger" id="myTab" role="tablist">
           <li class="nav-item"><a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#tab-home" role="tab" aria-controls="tab-home" aria-selected="true">Indycar</a></li>
-          <li class="nav-item"><a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">Extreme </a></li>
-          <li class="nav-item"><a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">Emsa</a></li>
-        
-      
         </ul>
         <!-- border-x -->
         <div class="tab-content  border-bottom p-3" id="myTabContent">
@@ -416,228 +417,7 @@
          
       
         </div>
-          <div class="tab-pane fade" id="tab-profile" role="tabpanel" aria-labelledby="profile-tab">
 
-            <div class="match-day">
-              <h3 class="text-danger border-bottom border-3 w-50 border-dark py-2 date" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">Feb, 18 2021</h3>
-              <div class="race">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <span class="display-inline"><h5>Barber Motorsports Park</h5> </span>
-                              <div class="">
-                                  <a class="btn w-100 btn-danger btn-block" href="#!"> <span class="far fa-calendar-times"></span>  NBCSN/ TBD	</a>
-                              </div><br>
-                              <div class="">
-                                  <a class="btn w-100 btn-outline-danger btn-block" href="#!"><span class='fas fa-map-marker-alt'></span> Barber Motorsports Park	</a>
-                              </div>
-                      </div>
-                      <div class="col-md-8 div-scroll">
-                          <table class="table table-striped">
-                              <thead>
-                                <tr>
-                                  <th scope="col">Players</th>
-                                  <th scope="col">Start</th>
-                                  <th scope="col">Finish </th>
-                                  <th scope="col">Standing</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Alex Palou&nbsp;</td>
-                                  <td>3</td>
-                                  <td>1</td>
-                                  <td>1</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span>Scott Dixon&nbsp;</td>
-                                  <td>5</td>
-                                  <td>3</td>
-                                  <td>3</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Marcus Ericsson&nbsp;</td>
-                                  <td>6</td>
-                                  <td>8</td>
-                                  <td>8</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Jimmie Johnson&nbsp;</td>
-                                  <td>21</td>
-                                  <td>19</td>
-                                  <td>19</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                      </div>
-                  </div>
-                  
-              </div>
-        
-              <div class="race">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="display-inline"><h5>Barber Motorsports Park</h5> </span>
-                            <div class="">
-                                <a class="btn w-100 btn-danger btn-block" href="#!"> <span class="far fa-calendar-times"></span>  14 Feb 2022	</a>
-                            </div><br>
-                            <div class="">
-                                <a class="btn w-100 btn-outline-danger btn-block" href="#!"><span class='fas fa-map-marker-alt'></span> San Diego Arena	</a>
-                            </div>
-                    </div>
-                    <div class="col-md-8 div-scroll">
-                        <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th scope="col">Players</th>
-                                <th scope="col">Start</th>
-                                <th scope="col">Finish </th>
-                                <th scope="col">Standing</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Alex Palou&nbsp;</td>
-                                <td>3</td>
-                                <td>1</td>
-                                <td>1</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span>Scott Dixon&nbsp;</td>
-                                <td>5</td>
-                                <td>3</td>
-                                <td>3</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Marcus Ericsson&nbsp;</td>
-                                <td>6</td>
-                                <td>8</td>
-                                <td>8</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Jimmie Johnson&nbsp;</td>
-                                <td>21</td>
-                                <td>19</td>
-                                <td>19</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
-                </div>
-                
-            </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="tab-contact" role="tabpanel" aria-labelledby="contact-tab">
-
-            <div class="match-day">
-              <h3 class="text-danger border-bottom border-3 w-50 border-dark py-2 date" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">April, 18 2021</h3>
-              <div class="race">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <span class="display-inline"><h5>Barber Motorsports Park</h5> </span>
-                              <div class="">
-                                  <a class="btn w-100 btn-danger btn-block" href="#!"> <span class="far fa-calendar-times"></span>  NBCSN/ TBD	</a>
-                              </div><br>
-                              <div class="">
-                                  <a class="btn w-100 btn-outline-danger btn-block" href="#!"><span class='fas fa-map-marker-alt'></span> Barber Motorsports Park	</a>
-                              </div>
-                      </div>
-                      <div class="col-md-8 div-scroll">
-                          <table class="table table-striped">
-                              <thead>
-                                <tr>
-                                  <th scope="col">Players</th>
-                                  <th scope="col">Start</th>
-                                  <th scope="col">Finish </th>
-                                  <th scope="col">Standing</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Alex Palou&nbsp;</td>
-                                  <td>3</td>
-                                  <td>1</td>
-                                  <td>1</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span>Scott Dixon&nbsp;</td>
-                                  <td>5</td>
-                                  <td>3</td>
-                                  <td>3</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Marcus Ericsson&nbsp;</td>
-                                  <td>6</td>
-                                  <td>8</td>
-                                  <td>8</td>
-                                </tr>
-                                <tr>
-                                  <td scope="row"> <span class="fas fa-user-circle"></span> Jimmie Johnson&nbsp;</td>
-                                  <td>21</td>
-                                  <td>19</td>
-                                  <td>19</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                      </div>
-                  </div>
-                  
-              </div>
-        
-              <div class="race">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="display-inline"><h5>Barber Motorsports Park</h5> </span>
-                            <div class="">
-                                <a class="btn w-100 btn-danger btn-block" href="#!"> <span class="far fa-calendar-times"></span>  14 Feb 2022	</a>
-                            </div><br>
-                            <div class="">
-                                <a class="btn w-100 btn-outline-danger btn-block" href="#!"><span class='fas fa-map-marker-alt'></span> San Diego Arena	</a>
-                            </div>
-                    </div>
-                    <div class="col-md-8 div-scroll">
-                        <table class="table table-striped">
-                            <thead>
-                              <tr>
-                                <th scope="col">Players</th>
-                                <th scope="col">Start</th>
-                                <th scope="col">Finish </th>
-                                <th scope="col">Standing</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Alex Palou&nbsp;</td>
-                                <td>3</td>
-                                <td>1</td>
-                                <td>1</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span>Scott Dixon&nbsp;</td>
-                                <td>5</td>
-                                <td>3</td>
-                                <td>3</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Marcus Ericsson&nbsp;</td>
-                                <td>6</td>
-                                <td>8</td>
-                                <td>8</td>
-                              </tr>
-                              <tr>
-                                <td scope="row"> <span class="fas fa-user-circle"></span> Jimmie Johnson&nbsp;</td>
-                                <td>21</td>
-                                <td>19</td>
-                                <td>19</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                    </div>
-                </div>
-                
-            </div>
-            </div>
-          </div>
         </div>
        
       </div>
