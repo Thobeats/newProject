@@ -2826,6 +2826,20 @@ var zanimation = function zanimation(el, callback) {
 
   callback(gsap.timeline());
 };
+
+
+
+// menu loader
+
+var menuLoader = function changeMenu(){
+  // var nav1 = document.getElementsByTagName('nav');
+  // var innerhtml1 = '';
+  // nav1[0].innerHTML = innerhtml1;
+  // console.log('changed');
+}
+
+
+
 /*-----------------------------------------------
 |    Zanimation Init
 -----------------------------------------------*/
@@ -2896,4 +2910,5 @@ docReady(lightboxInit);
 docReady(cookieNoticeInit);
 docReady(bootstrapNavbarInit);
 docReady(preloaderInit);
+// docReady(menuLoader);
 //# sourceMappingURL=theme.js.map
